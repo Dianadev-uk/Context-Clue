@@ -1,0 +1,27 @@
+.list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.listItem {
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.2);
+    border-radius: 16px;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    justify-content: space-between;
+    color: white;
+}
+
+.friendName {
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.favoriteColor {
+    font-size: 0.8rem;
+    margin: 1rem 0;
+}

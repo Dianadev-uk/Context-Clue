@@ -1,0 +1,19 @@
+.list {
+    list-style: none;
+}
+
+.listItem {
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 16px;
+    height: 25px;
+}
+
+.listItem:hover {
+    background-color: aquamarine;
+}
+
+.listItem:hover::after {
+    content: '💖';
+}
